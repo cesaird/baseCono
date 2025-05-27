@@ -1,0 +1,295 @@
+Assessment Meeting Report
+1. Meeting Information
+•
+Date: 16/08/2024
+•
+Time: 17:30 (Lisbon Time)
+•
+Location: Online meeting via Microsoft Teams
+•
+Participants:
+Innowave
+MN8
+Participants
+Role
+Participants
+Role
+Luis Almeida
+Project Manager
+Rafael Pavon
+Data Architect
+Rui Dias
+Data Architect
+Dharma Shanmugam
+Project Manager
+Luis Seabra
+Data Specialist
+Rafael Ramirez
+Data Architect
+Nuno Silva
+Data Engineer
+Cesar da Silva
+Project Manager
+Andre Oliveira
+Data Analyst
+•
+Meeting Moderator: Luis Almeida
+2. Meeting Objective
+The primary objective of the meeting was to understand the data structure and systems used by MN8 at enterprise level, with a drill
+down on the QBI system.
+3. Agenda
+The meeting was structured around the following points:
+1.
+Initial Check-in:
+o
+Ensure all participants are connected and ready to begin.
+2.
+Understanding Enterprise Data Architecture:
+o
+Presentation of MN8 entreprise data architecture, using the MN8 web portal
+3.
+Understanding QBI System:
+o
+Introduction on role of QBI in MN8’s data operations, especially concerning solar energy farms.
+4.
+Data Flow and System Integration:
+o
+Explore examples of the flow of data within enterprise data and how it integrates with other systems, such as YARDI.
+4. Discussion and Decisions
+Initial Check-in
+•
+[00:07] César da Silva started the interaction with a brief acknowledgment of the participants' presence. Although this was
+a routine check-in, it set the tone for the meeting, ensuring that everyone was prepared to proceed.
+Understanding Enterprise Data Architecture and QBI System
+•
+[36:54] César da Silva initiated the discussion about the QBI system, explaining that it is currently the primary system used
+by MN8 to manage data. He mentioned that in the coming weeks, the system would start consuming information from the
+data lake, signaling the importance of this integration for MN8’s operations. This introduction by César helped set the stage
+for understanding how QBI works and its signiVcance in the overall data management strategy.
+•
+[37:21] Rafael Pavon responded to a question posed by Rui Dias regarding the internal processes of QBI. Rafael admitted
+that there is limited detailed information available about what happens to the data once it is inside QBI. He elaborated that
+while the team is aware of the connections and some interfaces being built, the full scope of QBI's internal data handling
+remains unclear. This transparency from Rafael highlighted a potential gap in knowledge that could affect the integration
+process.
+•
+[37:32] Rafael Pavon further elaborated on the role of QBI within MN8. He explained that QBI serves as the main information
+system for all operations related to solar energy farms. Rafael emphasized that QBI is critical for MN8, as it centralizes data
+collected from various Veld stations and integrates this information with YARDI, an administrative system. This integration
+ensures that all data related to solar energy farms is consolidated within QBI, making it the authoritative source for reporting
+and analysis. Rafael's detailed explanation provided the Innowave team with a clearer understanding of how QBI operates
+within MN8’s infrastructure.
+•
+[38:02] Rafael Pavon also pointed out that while QBI is central to MN8’s solar operations, the company operates other
+business lines, such as electric vehicles, which are managed differently. He explained that these different business lines
+might have distinct data management processes, but QBI remains the core system for solar energy data. This information
+was crucial for the Innowave team to understand the broader context of MN8’s operations and the speciVc role QBI plays in
+it. Rafael Pavon shared with InnoWave team the MN8 web portal that allows dynamic navigation of the current MN8 data
+architecture. InnoWave team was unaware of this tool until now.
+•
+[38:45] Rafael Pavon returned to address concerns about how different business units interact with QBI. He acknowledged
+that QBI’s behavior could vary depending on the business unit, which complicates the task of integrating and standardizing
+data processes. Rafael highlighted that these differences are a natural consequence of MN8's diverse operations, but they
+do pose challenges for creating a uniVed data management approach. His input was vital in recognizing the complexity
+involved in how multiple business lines are integrated under a single data management system.
+Data Flow and System Integration
+•
+[38:05] Rui Dias asked follow-up questions about the data flow within QBI and its integration with other systems, speciVcally
+how data is handled once it enters QBI. This inquiry aimed to uncover any potential issues or gaps in the integration process
+that could impact the project’s success.
+•
+[38:32] Luis Seabra mentioned that the high-level understanding of QBI was helpful but pointed out ongoing questions
+about how QBI behaves differently across various business units. He noted that these differences, along with changes in the
+system, make it challenging to fully understand QBI’s operations. Luis's observation highlighted the need for a more detailed
+analysis to ensure that the integration aligns with the speciVc needs of each business unit.
+ClariXcations and Next Steps
+•
+[39:00] Rui Dias checked with the team to see if there were any further questions or clariVcations needed. Both Andre
+Oliveira and Nuno Silva conVrmed that they had no additional questions.
+•
+[39:12] Luis Almeida then summarized the discussion, thanking Rafael Pavon for the detailed explanations and
+contributions. Luis emphasized the importance of reviewing all the provided documentation to ensure a thorough
+understanding of QBI and its integration points. He also mentioned that the Innowave team would reach out if further
+clariVcation was required.
+•
+[39:34] Rafael Pavon assured the Innowave team that he would be available for any follow-up discussions and further
+clariVed that QBI is expected to handle all necessary reports and data processing for the solar energy farms. His willingness
+to support the team underscored MN8's commitment to the project’s success.
+Associated Risks
+During the meeting, the following risks were identiVed, which could potentially impact the success of the project:
+Risk
+Description
+Impact
+Lack of Detailed Information
+The team lacks detailed information on the internal workings of QBI, which could
+High
+on QBI
+lead to integration issues and inefVciencies.
+Lack of Clear Information on
+MN8 Enterprise level data architecture does not seem to be widely shared or
+High
+Data Architecture
+known across teams, or the owner of QBI databases.
+Complexity of Multi-Business
+The QBI system behaves differently across MN8’s various business units,
+Medium to
+Integration
+creating challenges in standardizing data integration and usage.
+High
+Dependence on Centralized
+Heavy reliance on QBI for all solar energy data could create bottlenecks or single
+Medium
+System
+points of failure if the system encounters issues.
+Communication Gaps
+InsufVcient communication between teams regarding QBI’s capabilities and
+Medium
+limitations could lead to misunderstandings and delays.
+Changing System Behaviors
+Ongoing changes in QBI’s functionality could complicate the integration process
+Medium to
+and make it difVcult to maintain consistent data management practices.
+High
+5. Next Steps
+•
+Documentation
+Review:
+The Innowave team will thoroughly review the documentation provided by MN8 to ensure a comprehensive understanding
+of Enterprise Data Architecture and QBI.
+6. Final Observations
+This meeting provided essential insights into MN8’s data architecture and highlighted the central role of QBI in managing solar energy
+data.\n\nMN8 Assessment - MN8 Daily - Meeting Report
+1. Meeting Information
+Date: 16/08/2024
+Time: 16:00 (Lisbon Time)
+Location: Online meeting via Microsoft Teams
+Participants:
+Innowave
+MN
+Participants
+Role
+Participants
+Role
+Luis Almeida
+Project Manager
+Cesar da Silva
+Project Manager
+Rui Dias
+Data Architect
+Alessandro Annoscia
+Project Manager
+Luis Seabra
+Data Specialist
+Nuno Silva
+Data Engineer
+Andre Oliveira
+Data Analyst
+. Meeting Moderator: Luis Almeida
+2. Meeting Objective
+The primary objective of the meeting was to address ongoing project challenges, particularly those related to stakeholder alignment,
+communication issues and availability of resources on MN8 side. The team aimed to discuss and identify actionable steps to ensure the
+project remains on track despite these challenges.
+3. Agenda
+The meeting was structured around the following points:
+1. Initial Check-in and Technical Issues:
+o Briefly address any technical difficulties at the start of the meeting.
+2. Project Challenges:
+0
+In-depth discussion on the current project challenges, focusing on the mismatch between available resources and
+project requirements.
+3. Stakeholder Management:
+o Explore the varying expectations of different stakeholders and how these are impacting project progress.
+4. Solution Proposal and Next Steps:
+o Identify possible solutions to the challenges discussed and establish clear next steps and responsibilities.
+5. Associated Risks:
+o Identify and assess the risks associated with the current challenges and potential impact on project success.
+4. Discussion and Decisions
+Resource Constraints and Project Challenges
+.
+[37:49] Cesar da Silva expressed his frustration regarding the significant resource challenges impacting the project. He pointed
+out that despite MN8 being a large company, they have not allocated sufficient resources to this project. Cesar emphasized that
+the existing team is stretched too thin, and this lack of adequate support is causing immense pressure. He mentioned that he
+has been involved in the project for about eight months and has observed that the expectations from leadership do not align
+with the team's actual capacity. He stated that this misalignment is leading to delays and contributing to the team's stress levels.
+[38:01] Cesar further elaborated, stating that while the timeline for the project is aggressive, it is also unrealistic given the current
+resource allocation. He emphasized that the perception that the project can be managed efficiently with the existing resources
+is incorrect. Cesar urged the group to reconsider the timeline and seek additional support from leadership to ensure the project's
+success.
+[39:35] Cesar also highlighted a critical issue: despite MN8 being a large organization, the resources available for this project
+are extremely limited. He quoted a statement from a senior leader, "You are all what we have," indicating that the current team
+must handle all aspects of the project. Cesar expressed concern that this approach is not sustainable and that the project will
+continue to face significant hurdles unless more resources are allocated.
+Stakeholder Alignment and Communication Issues
+. [38:33] Cesar da Silva addressed the complexities surrounding stakeholder management within MN8. He described how the
+project is being affected by political issues within the company, where different stakeholders have conflicting priorities. Cesar
+specifically mentioned Ramon, a key stakeholder, who is under considerable pressure to deliver results. However, Ramon's
+challenges are not solely technical; they are compounded by internal politics, making it difficult for him to align with the project's
+goals.
+[38:45] Cesar explained that Ramon sees the project team as the solution to his problems, which places additional
+responsibility and stress on the team. This dynamic is causing delays and complicating the decision-making process. Cesar
+suggested that the root of the problem lies in the political landscape of MN8, where different stakeholders are pulling the project
+in different directions. He stressed that without a unified approach, the project will continue to face setbacks.
+[39:57] In his opinion, the only way to resolve these issues is through better communication and alignment among all
+stakeholders. Cesar proposed a more coordinated approach where all key stakeholders are brought together to agree on a clear
+and unified direction. He emphasized that without this alignment, the project would remain vulnerable to internal conflicts and
+delays.
+Solution Proposal and Next Steps
+[38:26] Alessandro Annoscia acknowledged the concerns raised by Cesar and Luis Almeida. He agreed that the project timeline
+is aggressive and that it is unrealistic to expect the team to meet these deadlines without additional resources or support.
+Alessandro stressed the importance of revising the project timeline to better reflect the current resource availability.
+[39:11] Alessandro also supported Cesar's call for improved stakeholder alignment and communication. He noted that the
+technical challenges are significant, but the greater challenge lies in managing expectations and ensuring the team is not
+overburdened. Alessandro suggested that leadership needs to be more involved in resolving these issues and providing clear,
+consistent communication to all stakeholders.
+[39:52] Alessandro reiterated the importance of developing a detailed communication plan. This plan would help keep all
+stakeholders informed and aligned with the project's goals, ensuring that everyone is on the same page regarding timelines,
+challenges, and expectations.
+5. Associated Risks
+During the meeting, the following risks were identified, which could potentially impact the success of the project:
+Risk
+Description
+Impact
+Resource Allocation The project is currently under-resourced on the MN8 High
+Risk
+side, where it is difficult for MN8 to allocate time for
+its human resources to collaborate on initiatives
+requested by InnoWave - questionnarie filling and
+interviews.
+Stakeholder
+Differing priorities and internal politics among High
+Misalignment Risk
+stakeholders are causing delays and could lead to
+conflicting decisions that undermine the project's
+progress.
+Timeline
+and The current project timeline is aggressive and may Medium
+Deadline Risk
+not be achievable given the existing constraints, to High
+risking project delays and potential scope changes.
+Communication
+Inefficient communication channels could lead to Medium
+Breakdown Risk
+misunderstandings,
+missed
+updates,
+and
+misalignment across teams and stakeholders.
+Political
+and Internal politics within MN8 could continue to impact High
+Organizational Risk
+decision-making, leading to further delays and
+potential conflicts that could derail the project.
+These risks require close monitoring and proactive management to ensure they do not derail the project. The mitigation strategies
+proposed will be revisited regularly to assess their effectiveness and adjust as necessary.
+6. Next Steps
+Stakeholder Engagement:
+InnoWave team will schedule meetings with key stakeholders to ensure their expectations are aligned with the project goals and
+to address any concerns that might arise due to the current challenges.
+9. Final Observations
+This meeting highlighted critical challenges in resource allocation, stakeholder alignment, and internal communication within the project.
+These issues stem from under-staffing and poor resource allocation at MN8 and are transversal to this organization. The discussion was
+candid and constructive, leading to a consensus on the need for a revised approach. Moving forward, the focus will be on better managing
+stakeholder expectations, optimizing resource use, and improving communication to ensure the project's success despite the identified
+obstacles.
+10. Annex
+MN8 Daily-20240816 160106-Gravação da Reunião.mp4 (sharepoint.com)
